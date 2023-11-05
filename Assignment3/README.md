@@ -56,14 +56,14 @@ In the above example we are instructing the browser to treat "App.js" as a plain
 
 
 
-4Q)Explain {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX?
+4Q)Explain {TitleComponent} vs <TitleComponent/> vs <TitleComponent></TitleComponent> in JSX?
 Ans: {TitleComponent}: This is nothing but we are just using the JS variable in our JSX using {}
 
 Example:
 const TitleComponent= 10;
 const heading = <div> <h1>value is {TitleComponent}</h1> </div>
 
-{<TitleComponent/>}: This is used for the components without children, which means here TitleComponent cannot have anu]y children.
+{<TitleComponent/>}: This is used for the components without children, which means here TitleComponent cannot have any children.
 
 It is a self-closing component. It represents a React component with no children or content inside it.
 
